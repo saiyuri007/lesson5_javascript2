@@ -41,18 +41,18 @@ footer, header, hgroup, menu, nav, section {
 body {
    line-height: 1;
    max-width: 960px;
-   background: white;
+   background:  #b3ff99;
    margin: 0 auto;
    font-family: Arial, Helvetica, sans-serif; 
-   -webkit-box-shadow: 10px 0px 10px rgba(50, 50, 50, 1),
-                       0px 10px 10px rgba(50, 50, 50, 1),
-                       -10px 0px 10px rgba(50, 50, 50, 1);
-   -moz-box-shadow:    10px 0px 10px rgba(50, 50, 50, 1),
-                       0px 10px 10px rgba(50, 50, 50, 1),
-                       -10px 0px 10px rgba(50, 50, 50, 1);
-   box-shadow:         10px 0px 10px rgba(50, 50, 50, 1),
-                       0px 10px 10px rgba(50, 50, 50, 1),
-                       -10px 0px 10px rgba(50, 50, 50, 1);
+   -webkit-box-shadow: 10px 0px 10px rgba(0, 179, 0, 1),
+                       0px 10px 10px rgba(0, 179, 0, 1),
+                       -10px 0px 10px rgba(0, 179, 0, 1);
+   -moz-box-shadow:    10px 0px 10px rgba(0, 179, 0, 1),
+                       0px 10px 10px rgba(0, 179, 0, 1),
+                       -10px 0px 10px rgba(0, 179, 0, 1);
+   box-shadow:         10px 0px 10px rgba(0, 179, 0, 1),
+                       0px 10px 10px rgba(0, 179, 0, 1),
+                       -10px 0px 10px rgba(0, 179, 0, 1);
 }
 
 ol, ul {
@@ -63,18 +63,18 @@ ol, ul {
 header {
    background: #04819E;
    width: 100%;
-   color: #FFFFFF;
+   color:  #b3ff99;
    font-size: 48px;
    text-align: center;
    line-height: 1.5em;
-   border-bottom: 1px solid black;
+   border-bottom: 6px solid white;
 }
 
 /* main content */
 article {
    width: 960px;
    text-align: left;
-   background: ivory;
+   background: #f2e6ff;
    padding: 20px;
 }
 
@@ -82,6 +82,7 @@ h2 {
    font-weight: bold;
    font-size: 30px;
    text-align: center;
+   color: #00b3b3;
 }
 
 #errorMessage {
@@ -91,7 +92,7 @@ h2 {
    padding: 10px;
    margin: 15px auto 5px;
    background: #e3d5ba;
-   color: black;
+   color: #00b3b3;
    border: 5px solid rgb(190,50,38);
    font-weight: bold;
 }
@@ -106,7 +107,7 @@ fieldset {
    margin-bottom: 10px;
    position: relative;
    padding: 2.5em 1em 0.5em 1em;
-   background: #e3d5ba;
+   background: #00cccc;
 }
 
 fieldset fieldset {
